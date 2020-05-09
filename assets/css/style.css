@@ -282,11 +282,11 @@ header .right {
     color: var(--accent);
 }
 
-.intro .image {
+.intro .sizzle {
     position: relative;
     height: 300px;
 
-    background: url(../img/element.jpg) no-repeat center center;
+    background: url(../img/frontpage_sizzle.png) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
