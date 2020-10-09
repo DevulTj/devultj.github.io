@@ -29,15 +29,17 @@ body {
 }
 
 h1 {
-    font-weight: 900;
+    font-weight: 500;
     color: #f4f2fb;
-    font-size: 8rem;
+    font-size: 6rem;
     position: relative;
     z-index: 1;
 }
 
 h1 span {
-    display: block;
+    display: inline-block;
+    font-weight: 800;
+    color: #61AA93;
 }
 
 @media (max-width: 992px) {
@@ -506,3 +508,11 @@ footer svg {
         max-width: 1540px;
     }
 }
+
+  .circular--square {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
