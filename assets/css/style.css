@@ -21,6 +21,20 @@
     font-family: 'Heebo', sans-serif !important;
 }
 
+a {
+    font-weight: 600;
+    color: var(--alt-accent);
+}
+
+a:hover {
+    color: var(--accent);
+    -webkit-transition: .2s ease-in-out color;
+    -moz-transition: .2s ease-in-out color;
+    -o-transition: .2s ease-in-out color;
+    transition: .2s ease-in-out color;
+}
+
+
 body {
     background: #2B2B31;
     min-height: 100vh;
