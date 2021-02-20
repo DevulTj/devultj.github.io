@@ -137,7 +137,7 @@ p {
     width: 128px;
     height: 32px;
     position: absolute;
-    top: 1rem;
+    bottom: 0.4rem;
     left: 1rem;
 }
 
