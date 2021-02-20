@@ -10,6 +10,7 @@
 /* Variables */
 :root {
     --accent: #61AA93;
+    --alt: #c8ddd7;
     --alt-accent: #FFD392;
 }
 
@@ -106,8 +107,20 @@ h6 {
     font-weight: 400;
 }
 
+h7 {
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--alt);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 p {
     color: #8E8E9B;
+}
+
+.project-image {
+    -webkit-mask-image: linear-gradient(to left, transparent 5%, black 30%, black 70%);
 }
 
 .card {
@@ -117,7 +130,23 @@ p {
 }
 
 .card-body {
-    padding: 1.5rem;
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.bigcard {
+    border: none;
+    background: #32323A;
+    border-radius: 8px;
+}
+
+.bigcard-body {
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 0rem;
 }
 
 a {
