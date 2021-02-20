@@ -431,7 +431,9 @@ header .right {
 }
 
 .project a {
-    color: var(--accent);
+    text-decoration: underline !important;
+    text-underline-offset: 5px;
+    color: var(--alt-accent);
 }
 
 .project .card-body {
