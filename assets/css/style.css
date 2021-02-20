@@ -563,3 +563,7 @@ footer svg {
     overflow: hidden;
     border-radius: 50%;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
