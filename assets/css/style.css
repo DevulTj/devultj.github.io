@@ -132,12 +132,13 @@ p {
     -moz-background-size: 6rem !important;
     -o-background-size: 6rem !important;
     background-size: 6rem !important;
-    min-height: 12rem;
+    min-height: 1rem;
 
     width: 128px;
     height: 32px;
     position: absolute;
-    bottom: 0.2rem;
+    top: 1rem;
+    left: 1rem;
 }
 
 .card {
