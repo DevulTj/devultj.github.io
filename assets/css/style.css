@@ -569,7 +569,9 @@ footer svg {
   }
 
   #myBtn {
-    display: none; /* Hidden by default */
+    opacity: 0;
+    transition: all 0.4s;
+    display: block; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
@@ -582,6 +584,11 @@ footer svg {
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
+  }
+
+  #myBtn.visible {
+    opacity: 1;
+    transition: all 0.4s;
   }
   
   #myBtn:hover {
