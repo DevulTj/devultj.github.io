@@ -119,9 +119,11 @@ p {
     color: #8E8E9B;
 }
 
-.project-image {
-    -webkit-mask-image: linear-gradient(to left, transparent 5%, black 30%, black 70%);
-}
+@media (min-width: 768px) { 
+    .project-image {
+        -webkit-mask-image: linear-gradient(to left, transparent 5%, black 30%, black 70%);
+    }
+}    
 
 .card {
     border: none;
