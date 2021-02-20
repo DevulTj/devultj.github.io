@@ -125,6 +125,21 @@ p {
     }
 }    
 
+.company-image {
+    background-repeat: no-repeat !important;
+    background-position: bottom !important;
+    -webkit-background-size: 6em !important;
+    -moz-background-size: 6rem !important;
+    -o-background-size: 6rem !important;
+    background-size: 6rem !important;
+    min-height: 12rem;
+
+    width: 128px;
+    height: 32px;
+    position: absolute;
+    bottom: 0.2rem;
+}
+
 .card {
     border: none;
     background: #32323A;
