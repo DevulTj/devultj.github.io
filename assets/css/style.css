@@ -354,6 +354,8 @@ header .right {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    -webkit-mask-image: linear-gradient(to left, transparent 2%, black 10%, black 70%);
 }
 
 /* ------------------------------- */
