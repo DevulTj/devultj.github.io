@@ -236,13 +236,6 @@ header .right {
     --animate-duration: 2s;
 }
 
-@media (max-width: 992px) {
-    header img {
-        display: none;
-    }
-}
-
-
 /* ------------------------------- */
 /* ------------------------------- */
 /* ------------------------------- */
@@ -382,6 +375,12 @@ header .right {
 @media (min-width: 992px) {
     .about .row.main > div:nth-child(2) {
         padding-left: 6rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .hide-on-mobile {
+        display: none; /* Hidden by default */
     }
 }
 
