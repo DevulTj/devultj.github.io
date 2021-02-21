@@ -228,10 +228,12 @@ header img {
 
 header .left {
     left: -15rem;
+    --animate-duration: 2s;
 }
 
 header .right {
     right: -20rem;
+    --animate-duration: 2s;
 }
 
 @media (max-width: 992px) {
