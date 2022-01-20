@@ -650,6 +650,16 @@ footer svg {
     box-shadow: 5px 5px 10px rgba( 0, 0, 0, 0.5 );
 }
 
+.gallery-list .gallery-item h6 {
+    padding: 8px;
+
+    color: var(--accent);
+}
+
+.gallery-list .gallery-item img:hover {
+    border: 0.2rem solid var(--accent);
+}
+
 .gallery-list .gallery-item img:hover {
     transition: all 0.2s ease;
     border-radius: 16px;
