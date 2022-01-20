@@ -217,7 +217,7 @@ header {
 }
 
 header > .container {
-    padding: 10rem 0;
+    padding: 4.5rem 0;
 }
 
 header img {
@@ -624,3 +624,36 @@ footer svg {
     opacity: 1;
     transform: translate(0, 0);
     }
+
+
+
+.gallery-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.gallery-list .gallery-item {
+    padding: 0.1rem;
+}
+
+.gallery-list .gallery-item img {
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+
+    box-shadow: 5px 5px 10px rgba( 0, 0, 0, 0.5 );
+}
+
+.gallery-list .gallery-item img:hover {
+    transition: all 0.2s ease;
+    border-radius: 16px;
+    width: 700px;
+    max-width: 700px;
+    cursor: pointer;
+}
