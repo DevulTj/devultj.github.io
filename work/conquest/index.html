@@ -50,7 +50,7 @@
         <div class="col-lg-10">
             <div class="card post">
                 <div class="card-body">
-                    <a href="https://github.com/devultj/sbox-conquest"><h3>Conquest: Strongholds</h3>
+                    <a href="https://github.com/devultj/sbox-conquest"><h3>Conquest</h3>
                     <h6 class="imagetitle">Source code available on GitHub</h6>
                             
                     <div class="github">
@@ -62,10 +62,51 @@
                             <img src="../../assets/img/conquest/conquest_gameplay.gif" class="gifimage" alt="Element">
                         </div>
                     </div>
-                    <div class="mt-2">
-                        <div class="gif">
-                            <img src="../../assets/img/conquest/conquest_pinging.gif" class="gifimage" alt="Element">
+
+                    <div class="mt-5">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col">
+                                <h4>Weapon System</h4>
+                                <p class="mb-0">
+                                    I created a data oriented weapon system, so you could create weapons without ever touching C# code. This utilized the engine's Asset system which is absolutely great for designers and people tweaking values for balance, since you don't have to recompile anything yourself. It's super fast as well.
+                                </p>
+
+                                <br/>
+                                <h4>UI</h4>
+                                <p class="mb-0">
+                                    I created all of the UI - it's based off designs from Battlefield 2042, but entirely done in HTML & CSS for templating, and C# for game logic.
+                                </p>
+                                <br/>
+                                <h4>Pinging System</h4>
+                                <p class="mb-0">
+                                    I wrote a quick pinging system that allowed for context based pings - for example if you're pointing at/nearby an enemy, it'll send the server a request to place a ping of that type to your squadmates.
+                                </p>
+                                <div class="mt-2">
+                                    <div class="gif">
+                                        <img src="../../assets/img/conquest/conquest_pinging.gif" class="gifimage" alt="Element">
+                                    </div>
+                                </div>
+                                <br/>
+                                <h4>Game Modes</h4>
+                                <p class="mb-0">
+                                    The game supports multiple game modes, which is awesome for added features along the line. The way the game mode system is set out is by using inheritance, which allows for child classes to be created without the need to duplicate code - reducing code bloat within the project and enhancing the fluidity of the codebase.
+                                </p>
+                                <br/>
+                                <h4>Input Hints</h4>
+                                <p class="mb-0">
+                                    The game supports input hints, which are driven by what your active input device is, and will change to glyphs served by Steam Input.
+                                </p>
+                                <div class="gif">
+                                    <img src="../../assets/img/conquest/conquest_input.jpg" class="gifimage" alt="Element">
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                    <div class="mt-5">
+                        <h4>Thank you for reading!</h4>
+                        <p>
+                            The game came under so many iterations, and it has taught me a lot about Unity over the span of an academic year. It's a large accomplishment from me and my team - and I'm very proud of the end result.
+                        </p>
                     </div>
                 </div>
             </div>
