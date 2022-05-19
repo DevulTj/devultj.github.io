@@ -28,6 +28,35 @@ a {
     color: var(--alt-accent);
 }
 
+.socials {
+    height: 32px;
+
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.socials svg {
+    fill: var(--alt);
+    height: 32px;
+    width: 32px;
+    transition: all 0.2s ease;
+}
+
+.extra {
+    margin-left: 6px;
+}
+
+.socials svg:hover {
+    transform: scale(1.05);
+    fill: var(--accent);
+    height: 32px;
+    width: 32px;
+}
+
 a:hover {
     color: var(--accent);
     -webkit-transition: .2s ease-in-out color;
