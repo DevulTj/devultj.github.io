@@ -2,7 +2,7 @@
 /* ------------------------------- */
 /* ------------------------------- */
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
 
 /* ------------------------------- */
 /* ------------------------------- */
@@ -19,7 +19,7 @@
 /* ------------------------------- */
 /* Preset */
 *:not(i) {
-    font-family: 'Heebo', sans-serif !important;
+    font-family: 'Nunito Sans', cursive;
 }
 
 a {
@@ -104,7 +104,7 @@ h6 {
     text-transform: uppercase;
     color: var(--accent);
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 h7 {
