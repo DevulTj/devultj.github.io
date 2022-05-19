@@ -267,7 +267,7 @@ a {
     font-size: 1.5rem;
     font-weight: 300;
     margin: 0 1rem;
-    color: #aaaaab !important;
+    color: #aaaaab;
     text-align: center;
 }
 
@@ -275,10 +275,6 @@ a {
     .nav-item:last-child .nav-link {
         margin-right: 0;
     }
-}
-
-.nav-item.active .nav-link {
-    color: var(--accent) !important;
 }
 
 .navbar-toggler {
