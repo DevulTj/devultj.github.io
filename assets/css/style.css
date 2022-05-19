@@ -119,6 +119,58 @@ p {
     color: #8E8E9B;
 }
 
+.github {
+    background-color: #3f3f47;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    padding-bottom: 16px;
+}
+
+.github img:hover {
+    transform: scale(1.05);
+    border-radius: 16px;
+    border: 0.2rem solid var(--accent);
+}
+
+.gif {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.imagetitle {
+    background-color: #3f3f47;
+    
+    padding: 16px;
+    margin-bottom: 0;
+}
+
+.gifimage {
+    transition: all 0.2s ease;
+    width: 100%;
+    border: 0rem solid var(--accent);
+}
+
+.gifimage:hover {
+    border-radius: 16px;
+    border: 0.2rem solid var(--accent);
+}
+
+.githubimage {
+    transition: all 0.2s ease;
+    border: 0rem solid var(--accent);
+
+    width: 50%;
+
+}
+
 @media (min-width: 768px) { 
     .project-image {
         -webkit-mask-image: linear-gradient(to left, transparent 5%, black 30%, black 70%);
