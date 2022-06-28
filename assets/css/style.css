@@ -207,26 +207,47 @@ p {
     }
 }    
 
+.company {
+    width: 256px;
+    height: 50px;
+
+    position: absolute;
+    bottom: 0rem;
+    left: 0rem;
+
+    padding-left: 24px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+
+    background-image: linear-gradient( 80deg, rgba( 35, 35, 50, 1 ), rgba( 50, 0, 0, 0 ) );
+}
+
+.small {
+    padding-left: 8px !important;
+}
+
 .company-image {
     background-repeat: no-repeat !important;
-    background-position: bottom !important;
-    -webkit-background-size: 6em !important;
-    -moz-background-size: 6rem !important;
-    -o-background-size: 6rem !important;
-    background-size: 6rem !important;
-    min-height: 1rem;
+    -webkit-background-size: contain !important;
+    -moz-background-size: contain !important;
+    -o-background-size: contain !important;
+    background-size: contain;
 
-    width: 128px;
+    width: 150px;
     height: 32px;
-    position: absolute;
-    bottom: 0.4rem;
-    left: 1rem;
+
 }
 
 .card {
     border: none;
     background: #32323A;
     border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba( 0, 0, 0, 0.2 );
 }
 
 .card-body {
@@ -240,6 +261,7 @@ p {
     border: none;
     background: #32323A;
     border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba( 0, 0, 0, 0.2 );
 }
 
 .bigcard-body {
