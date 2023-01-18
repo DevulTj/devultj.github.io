@@ -570,6 +570,7 @@ header .right {
     flex-wrap: wrap;
     flex-direction: row;
     overflow: hidden;
+    transition: all 0.2s ease;
 }
 
 @media (min-width: 768px) {
@@ -577,12 +578,6 @@ header .right {
         flex-basis: 50%;
         width: 50%;
     }
-}
-
-.project a {
-    text-decoration: underline !important;
-    text-underline-offset: 5px;
-    color: var(--alt-accent);
 }
 
 .project .card-body {
@@ -594,8 +589,13 @@ header .right {
     flex-grow: 1;
 }
 
-.project .time {
-    color: #aaaab7;
+.project:hover {
+    transform: scale(1.02);
+
+    cursor: pointer;
+    border: 0.2rem solid var(--accent);
+    border-radius: 8px;
+    background: radial-gradient( ellipse at top, rgb( 48, 54, 75, 1 ) 20%, rgba( 22, 25, 36, 0.7 ) );
 }
 
 .project .image {
@@ -605,7 +605,7 @@ header .right {
     -moz-background-size: cover !important;
     -o-background-size: cover !important;
     background-size: cover !important;
-    min-height: 14rem;
+    min-height: 15rem;
 }
 
 .video-container {
@@ -770,7 +770,7 @@ footer svg {
 }
 
 .gallery-list .gallery-item:hover {
-    transform: translateY(-32px) translateX(16px) scale(1.05);
+    transform: scale(1.05);
     z-index: 999;
 }
 
