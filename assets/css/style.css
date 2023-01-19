@@ -13,7 +13,7 @@
 :root {
     --accent: rgb(90, 126, 224);
     --alt: rgb(157, 171, 209);
-    --alt-accent: rgb(157, 171, 209);
+    --alt-accent: rgb(157, 171, 239);
     --main-background: #21242e;
     --background: #2d313f;
     --background-light: #20232e;
@@ -664,10 +664,26 @@ header .right {
     min-height: 14rem;
 }
 
+
+embed {
+    height: 66.6rem;
+}
 @media (max-width: 768px) {
     .project {
         flex-direction: column;
     }
+}
+
+.hyper {
+    transition: all 0.2s ease !important;
+}
+
+.hyper:hover {
+    margin-top: 16px;
+    transform: scale( 1.25 );
+
+    color: var(--alt-accent);
+    border-bottom: 2px solid var(--alt-accent);
 }
 
 /* ------------------------------- */
