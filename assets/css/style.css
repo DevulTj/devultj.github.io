@@ -153,7 +153,7 @@ h6 {
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--accent);
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
@@ -227,6 +227,22 @@ p {
     }
 }    
 
+.row {
+    display: flex;
+    flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.large-gap {
+    gap: 25px;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
 .company {
     width: 256px;
     height: 50px;
@@ -268,6 +284,29 @@ p {
     border-radius: 8px;
     background: radial-gradient( ellipse at top, rgb( 48, 54, 75, 0.5 ) 20%, rgba( 22, 25, 36, 0.7 ) );
     box-shadow: 2px 2px 10px rgba( 0, 0, 0, 0.5 );
+}
+
+.smaller {
+    font-size: 13px;
+}
+
+.circle {
+    width: 15%;
+    aspect-ratio: 1;
+    border-radius: 1000px;   
+
+    justify-content: center;
+	align-items: center;
+	align-content: stretch;
+
+    transition: all 0.2s ease;
+    flex-direction: column;
+}
+
+.circle:hover {
+    transform: scale(1.05);
+    border: 0.2rem solid var(--accent);
+    background: radial-gradient( ellipse at top, rgb( 48, 54, 75, 1 ) 20%, rgba( 22, 25, 36, 0.7 ) );
 }
 
 .card > .image {
@@ -760,23 +799,22 @@ footer svg {
     justify-content: center;
 }
 
-.gallery-list > li {
-    flex-basis: 15%;
-    padding: 500px;
-}
-
 .gallery-list .gallery-item {
     transition: all 0.2s ease;
 }
 
 .gallery-list .gallery-item:hover {
-    transform: scale(1.05);
-    z-index: 999;
+    transform: scale(1.2);
 }
 
-.gallery-list > img {
+
+.gallery-list .gallery-item img {
+    box-shadow: 0px 0px 15px rgba( 0, 0, 0, 0.5 );
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    width: 28rem;
+    aspect-ratio: 1.7777;
     object-fit: cover;
-    background: green;
 }
 
 .gallery-list .gallery-item h6 {
