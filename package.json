@@ -8,7 +8,10 @@
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
-    "build": "npm-run-all build:*"
+    "build": "npm-run-all build:*",
+    "build:sass:prod": "sass src/static/scss:public/static/css --style compressed",
+    "build:eleventy:prod": "ELEVENTY_ENV=production eleventy",
+    "build:prod": "npm run build:eleventy:prod & npm run build:sass:prod"
   },
   "keywords": [],
   "author": "",
