@@ -6,8 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: build 11ty
-        uses: TartanLlama/actions-eleventy@master
+      # - name: build 11ty
+      #   uses: TartanLlama/actions-eleventy@master
       - name: gh-pages deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

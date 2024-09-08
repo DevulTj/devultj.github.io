@@ -1,9 +1,6 @@
 # Dependencies
 /node_modules
 
-# Misc
-/_site
-
 # Intellij
 /.idea
 
@@ -16,6 +13,3 @@
 # Visual Studio Code
 /.vscode
 .history
-
-gh-pages
-gh-pages.pub
