@@ -1,14 +1,13 @@
-name: Eleventy Build
+name: full-build
 on: [push]
 
 jobs:
   build_deploy:
-    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@master
-      - name: Build
+      - name: build 11ty
         uses: TartanLlama/actions-eleventy@master
-      - name: Deploy
+      - name: gh-pages deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: _site 
