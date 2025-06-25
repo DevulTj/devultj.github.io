@@ -1,6 +1,6 @@
 ---
 title: Apex Legends
-desc: Free-to-play battle royale-hero shooter game.
+desc: Free-to-play battle royale-hero shooter game
 dev: Respawn Entertainment
 devlogo: /assets/img/rspn.jpg
 logo: https://wallpapers.com/images/hd/apex-legends-logo-ngvjm7awxqelhkkx.jpg
