@@ -4,6 +4,7 @@
   "bio": "I work on games and the tools that make them. Currently at Facepunch Studios on s&box. Previously at Lucid Games working on Apex Legends.",
   "links": [
     { "label": "GitHub", "url": "https://github.com/devultj", "external": true, "icon": "github" },
+    { "label": "Bluesky", "url": "https://bsky.app/profile/tonyferguson.co.uk", "external": true, "icon": "bluesky" },
     { "label": "X", "url": "https://x.com/devultj", "external": true, "icon": "twitter" },
     { "label": "LinkedIn", "url": "https://www.linkedin.com/in/tonyjuniorferguson/", "external": true, "icon": "linkedin" }
   ],
