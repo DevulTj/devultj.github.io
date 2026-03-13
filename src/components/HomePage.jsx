@@ -55,9 +55,14 @@ export default function HomePage({ data }) {
       <section className="home-section" id="cv">
         <div className="home-section-header">
           <h2 className="project-category-heading">CV</h2>
-          <Button href="/cv/resume.pdf" download variant="ghost">Download PDF</Button>
         </div>
-        <iframe src="/cv/resume.pdf" className="cv-embed" title="CV" />
+        <div className="cv-home">
+          <p className="cv-home-desc">My full work history, skills, and experience.</p>
+          <div className="cv-home-actions">
+            <Button href="/cv/">View CV</Button>
+            <Button href="/cv/resume.pdf" download variant="ghost">Download PDF</Button>
+          </div>
+        </div>
       </section>
     </Layout>
   )
