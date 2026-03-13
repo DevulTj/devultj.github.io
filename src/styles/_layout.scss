@@ -1,0 +1,78 @@
+@use 'variables' as *;
+
+$sidebar-collapsed-width: 64px;
+
+.app-shell {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.content-wrapper {
+  max-width: $content-max-width;
+  margin: 0 auto;
+  padding: $spacing-3xl $spacing-xl;
+}
+
+// Applied via data attribute on <html> before first paint — no transition flash
+html[data-sidebar="collapsed"] {
+  .main-content {
+    margin-left: $sidebar-collapsed-width;
+  }
+
+  .sidebar {
+    width: $sidebar-collapsed-width;
+    padding: $spacing-md $spacing-sm;
+    align-items: center;
+    overflow: visible;
+  }
+
+  .sidebar-nav {
+    overflow: visible;
+  }
+
+  .sidebar-identity { display: none; }
+
+  .sidebar-toggle {
+    align-self: center;
+  }
+
+  .sidebar-profile {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .sidebar-avatar {
+    width: 32px;
+    height: 32px;
+  }
+
+  .nav-label { display: none; }
+
+  .nav-item {
+    justify-content: center;
+    padding: $spacing-sm;
+    width: 40px;
+    height: 40px;
+
+    &:hover::after { opacity: 1; }
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content { margin-left: 0; padding-top: 60px; }
+  .content-wrapper { padding: $spacing-xl $spacing-md; }
+
+  .sidebar, .sidebar-nav { overflow: visible; }
+
+  // Reset any collapsed-state overrides
+  .sidebar-avatar { width: 28px !important; height: 28px !important; }
+
+  .nav-item:hover::after { opacity: 1; }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "s&box",
+  "studio": "Facepunch Studios",
+  "description": "Programmer at Facepunch working on s&box, a game creation platform built on Source 2. Spiritual successor to Garry's Mod — play, create, and share games with powerful modern tools.",
+  "tags": ["C#", "C++", "Source 2", "Game Platform", "Tools"],
+  "year": 2025,
+  "yearRange": "2022 – present",
+  "banner": true,
+  "icon": "icon.jpg",
+  "url": "https://sbox.game",
+  "github": "https://github.com/Facepunch"
+}

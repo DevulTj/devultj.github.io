@@ -1,0 +1,8 @@
+{
+  "title": "Sandbox",
+  "description": "The classic Garry's Mod-inspired freeform sandbox — spawn props, mess around with physics, and build whatever you want. A staple of the s&box platform.",
+  "tags": ["C#", "Multiplayer", "Sandbox", "Physics"],
+  "year": 2023,
+  "banner": true,
+  "url": "https://sbox.game/facepunch/sandbox"
+}

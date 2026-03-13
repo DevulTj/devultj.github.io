@@ -1,15 +1,4 @@
-# Dependencies
-/node_modules
-
-# Intellij
-/.idea
-
-# Sass
-.sass-cache/
-*.css.map
-*.sass.map
-*.scss.map
-
-# Visual Studio Code
-/.vscode
-.history
+node_modules/
+dist/
+.DS_Store
+*.log

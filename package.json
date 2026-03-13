@@ -1,28 +1,25 @@
 {
-  "name": "devultj.github.io",
+  "name": "devultj-portfolio",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "watch:sass": "sass --watch _src/sass:_site/css",
-    "build:sass": "sass --load-path=node_modules _src/sass:_site/css",
-    "watch:eleventy": "eleventy --serve",
-    "build:eleventy": "eleventy",
-    "start": "npm-run-all build:sass --parallel watch:*",
-    "build": "npm-run-all build:*",
-    "build:sass:prod": "sass _src/sass:_site/css --style compressed",
-    "build:eleventy:prod": "ELEVENTY_ENV=production eleventy",
-    "build:prod": "npm run build:eleventy:prod & npm run build:sass:prod"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "npm-run-all": "^4.1.5",
-    "sass": "^1.78.0"
+    "build": "tsx build.jsx",
+    "dev": "tsx dev.jsx",
+    "serve": "npx serve dist --listen 3000"
   },
   "dependencies": {
-    "bulma": "^1.0.2"
+    "@mdx-js/mdx": "^3.1.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.4.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remark-gfm": "^4.0.0",
+    "sass": "^1.80.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "chokidar": "^5.0.0",
+    "sharp": "^0.34.5",
+    "tsx": "^4.21.0"
   }
 }

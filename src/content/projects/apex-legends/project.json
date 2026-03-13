@@ -1,0 +1,11 @@
+{
+  "title": "Apex Legends",
+  "studio": "Lucid Games",
+  "description": "Gameplay and systems programmer on Respawn's battle royale title. Worked on live-service features, gameplay systems, and engine tooling across multiple seasons.",
+  "tags": ["C++", "Gameplay", "Live Service", "Battle Royale"],
+  "year": 2022,
+  "yearRange": "2019 – 2022",
+  "banner": true,
+  "icon": "logo.jpg",
+  "url": "https://www.ea.com/games/apex-legends"
+}
