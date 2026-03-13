@@ -83,6 +83,12 @@ async function build() {
     fse.copySync(scriptsSrc, join(DIST, 'scripts'), { overwrite: true })
   }
 
+  // 3d. Copy static files (CNAME, robots.txt, etc.)
+  const staticSrc = join(SRC, 'static')
+  if (existsSync(staticSrc)) {
+    fse.copySync(staticSrc, DIST, { overwrite: true })
+  }
+
   // 4. Projects
   console.log('📁 Building projects...')
   const projectDirs = globSync('src/content/projects/*/', { cwd: __dirname })
