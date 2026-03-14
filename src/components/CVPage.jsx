@@ -9,7 +9,6 @@ export default function CVPage() {
       <PageHeader title="CV" />
       <div className="cv-container">
         <div className="cv-notice">
-          <p>Place your <code>resume.pdf</code> in <code>src/content/cv/</code> to display it here.</p>
           <Button href="/cv/resume.pdf" download>Download PDF</Button>
         </div>
         <iframe
